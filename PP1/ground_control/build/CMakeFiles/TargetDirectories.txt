@@ -1,0 +1,3 @@
+/Users/Kiara/Desktop/repos/CIIC4050/CIIC4050-project/PP1/ground_control/build/CMakeFiles/ground_control.dir
+/Users/Kiara/Desktop/repos/CIIC4050/CIIC4050-project/PP1/ground_control/build/CMakeFiles/edit_cache.dir
+/Users/Kiara/Desktop/repos/CIIC4050/CIIC4050-project/PP1/ground_control/build/CMakeFiles/rebuild_cache.dir
