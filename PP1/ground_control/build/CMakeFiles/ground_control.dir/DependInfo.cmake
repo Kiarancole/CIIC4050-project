@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/Kiara/Desktop/repos/CIIC4050/CIIC4050-project/PP1/ground_control/src/main.c" "CMakeFiles/ground_control.dir/src/main.c.o" "gcc" "CMakeFiles/ground_control.dir/src/main.c.o.d"
+  "/mnt/c/Users/samae/OS/Project/CIIC4050-project/PP1/ground_control/src/main.c" "CMakeFiles/ground_control.dir/src/main.c.o" "gcc" "CMakeFiles/ground_control.dir/src/main.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

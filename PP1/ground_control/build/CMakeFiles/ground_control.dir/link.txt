@@ -1,1 +1,1 @@
-/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/ground_control.dir/src/main.c.o -o ground_control
+/usr/bin/cc CMakeFiles/ground_control.dir/src/main.c.o -o ground_control 

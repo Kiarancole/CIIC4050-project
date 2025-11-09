@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/Kiara/Desktop/repos/CIIC4050/CIIC4050-project/PP1/radio/src/main.c" "CMakeFiles/radio.dir/src/main.c.o" "gcc" "CMakeFiles/radio.dir/src/main.c.o.d"
+  "/mnt/c/Users/samae/OS/Project/CIIC4050-project/PP1/radio/src/main.c" "CMakeFiles/radio.dir/src/main.c.o" "gcc" "CMakeFiles/radio.dir/src/main.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

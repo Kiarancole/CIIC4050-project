@@ -13,9 +13,10 @@ int main() {
   radio_pid = fork();
   if (radio_pid == 0) {
     // Child process - execute radio
-    execl("./radio", "radio", SH_MEMORY_NAME, NULL);
-    perror("execl");
+    execlp("../radio/build/radio", "radio", SH_MEMORY_NAME, NULL);
+    perror("execlp has failed");
     exit(1);
+
   } else if (radio_pid > 0) {
     // Parent process - store radio PID
     sh_memory[1] = radio_pid;
@@ -30,7 +31,7 @@ int main() {
   pthread_t threads[5];
   for (int i = 0; i < 5; i++) {
     if (pthread_create(&threads[i], NULL, TakeOffsFunction, NULL) != 0) {
-      perror("pthread_create");
+      perror("pthread_create failed");
       exit(1);
     }
   }
