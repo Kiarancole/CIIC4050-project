@@ -11,7 +11,7 @@ _libc = ctypes.CDLL(None, use_errno=True)
 
 TOTAL_TAKEOFFS = 20
 STRIPS = 5
-SHM_NAME = b"/air_control_shm"   # must be bytes for libc calls
+SHM_NAME = b"/air_control_memory"   # must be bytes for libc calls
 SHM_INTS = 3
 
 # size for 3 ints
